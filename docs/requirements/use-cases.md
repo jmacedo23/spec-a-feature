@@ -5001,7 +5001,7 @@ File names include document type and team identifier.
   - A student is a non-submitter when the system has no current submission record for that student, item type, and target week.
   - A student whose submission was deleted is a non-submitter because the system no longer has a current submission record.
   - A student who is not assigned to a team is excluded from the list because she cannot submit either item type (BR-team-assignment-required).
-  - For a Weekly Activity Report, an eligible non-submitter is a team-assigned student who has no current report for the selected target week and whose weekly-report deadline has not passed.
+- For a Weekly Activity Report, a student has submitted when she has at least one persisted activity for the selected target week. An eligible non-submitter is a team-assigned student with no persisted activity for that target week and whose weekly-report deadline has not passed.
   - For a Peer Evaluation, an eligible non-submitter is a team-assigned student who has no current evaluation for the selected active week and whose one-week submission window has not closed (BR-active-weeks, BR-evaluation-submission-window).
 
 - **Displayed information:** For each eligible non-submitter, the system displays the student’s name, item type, target week, and reminder status. The instructor sees only students in the selected course section (BR-section-scoped-access).
