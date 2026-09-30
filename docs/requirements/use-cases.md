@@ -4989,6 +4989,10 @@ File names include document type and team identifier.
 - **7c. The email server rejects a student’s email address:**
   - 7c1. The system logs the email-delivery failure, identifies the student as not emailed, and continues with the remaining selected students.
   - 7c2. The system completes the use case and displays the delivery results.
+ 
+- **7d. A selected student is no longer assigned to a team when sending begins:**
+  - 7d1. The system does not send that student a reminder and identifies the student as skipped because she is no longer eligible to submit (BR-team-assignment-required).
+  - 7d2. The system continues with the remaining selected students.
 
 **Priority:** High  
 **Frequency of Use:** Occasional; usually near weekly assignment deadlines.  
